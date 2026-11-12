@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Uploaded financial documents
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Processed data
+data/processed/*
+!data/processed/.gitkeep
+
+# Vector database
+data/vector_store/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
